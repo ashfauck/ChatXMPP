@@ -1,0 +1,6 @@
+framework module HeadStart {
+  umbrella header "HeadStart-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,8 @@
 
 import UIKit
 import CoreData
+import XMPPFramework
+import xmpp_messenger_ios
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        OneChat.start(true, delegate: nil) { (stream, error) -> Void in
+            if let _ = error {
+                //handle start errors here
+                print("errors from appdelegate")
+            } else {
+                print("Yayyyy")
+                //Activate online UI
+            }
+        }
+        
         return true
     }
 

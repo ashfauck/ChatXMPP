@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CXWeatherTableViewCell" customModule="ChatXMPP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b46-bv-i9R">
+                        <rect key="frame" x="16" y="10" width="288" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mumbai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H65-pq-aNF">
+                                <rect key="frame" x="10" y="10" width="268" height="20"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26°c" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMF-s9-EgL">
+                                <rect key="frame" x="10" y="35" width="268" height="20"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H: 27 - L: 25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JjG-hP-QjO">
+                                <rect key="frame" x="10" y="60" width="268" height="20"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="H65-pq-aNF" secondAttribute="trailing" constant="10" id="DV1-Tc-sSS"/>
+                            <constraint firstItem="gMF-s9-EgL" firstAttribute="leading" secondItem="b46-bv-i9R" secondAttribute="leading" constant="10" id="JOp-TN-yVb"/>
+                            <constraint firstItem="JjG-hP-QjO" firstAttribute="leading" secondItem="b46-bv-i9R" secondAttribute="leading" constant="10" id="ay0-dD-bVU"/>
+                            <constraint firstAttribute="trailing" secondItem="JjG-hP-QjO" secondAttribute="trailing" constant="10" id="c8s-Wo-b2q"/>
+                            <constraint firstAttribute="trailing" secondItem="gMF-s9-EgL" secondAttribute="trailing" constant="10" id="l2w-3p-N7h"/>
+                            <constraint firstItem="H65-pq-aNF" firstAttribute="leading" secondItem="b46-bv-i9R" secondAttribute="leading" constant="10" id="r9t-yz-kMG"/>
+                            <constraint firstItem="gMF-s9-EgL" firstAttribute="top" secondItem="H65-pq-aNF" secondAttribute="bottom" constant="5" id="uCC-F7-vng"/>
+                            <constraint firstItem="H65-pq-aNF" firstAttribute="top" secondItem="b46-bv-i9R" secondAttribute="top" constant="10" id="v4f-ox-1N4"/>
+                            <constraint firstItem="JjG-hP-QjO" firstAttribute="top" secondItem="gMF-s9-EgL" secondAttribute="bottom" constant="5" id="vhb-7z-fTo"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="b46-bv-i9R" secondAttribute="bottom" constant="10" id="ISa-YJ-tca"/>
+                    <constraint firstItem="b46-bv-i9R" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Kl3-lw-ZaJ"/>
+                    <constraint firstAttribute="trailing" secondItem="b46-bv-i9R" secondAttribute="trailing" constant="16" id="mpk-tR-Fen"/>
+                    <constraint firstItem="b46-bv-i9R" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="tVu-v8-P8z"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="baseView" destination="b46-bv-i9R" id="2fx-or-AY9"/>
+                <outlet property="cityName" destination="H65-pq-aNF" id="Cf9-og-Ywi"/>
+                <outlet property="currentDegreeLbl" destination="gMF-s9-EgL" id="Jcb-Eb-b72"/>
+                <outlet property="highAndLowLbl" destination="JjG-hP-QjO" id="U47-di-ali"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="105"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

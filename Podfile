@@ -9,6 +9,6 @@ target 'ChatXMPP' do
   
   pod 'HeadStart' 
   
-  pod 'XMPPFramework', :git => "https://github.com/robbiehanson/XMPPFramework.git", :branch => 'master'
+  pod 'XMPPFramework/Swift'
 
 end

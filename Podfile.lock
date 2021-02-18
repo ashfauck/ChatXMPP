@@ -3,13 +3,11 @@ PODS:
   - CocoaLumberjack (3.7.0):
     - CocoaLumberjack/Core (= 3.7.0)
   - CocoaLumberjack/Core (3.7.0)
-  - FMDB (1.5.1)
+  - CocoaLumberjack/Swift (3.7.0):
+    - CocoaLumberjack/Core
   - HeadStart (0.0.48):
     - NVActivityIndicatorView
     - PINRemoteImage
-  - JSQMessagesViewController (7.3.5):
-    - JSQSystemSoundPlayer (~> 2.0.1)
-  - JSQSystemSoundPlayer (2.0.1)
   - KissXML (5.3.1):
     - KissXML/All (= 5.3.1)
   - KissXML/Additions (5.3.1):
@@ -37,56 +35,44 @@ PODS:
   - PINRemoteImage/PINCache (3.0.3):
     - PINCache (~> 3.0.3)
     - PINRemoteImage/Core
-  - xmpp-messenger-ios (1.0.1):
-    - FMDB (~> 1.0)
-    - JSQMessagesViewController
-    - JSQSystemSoundPlayer (~> 2.0)
-    - XMPPFramework
-  - XMPPFramework (4.0.0):
-    - XMPPFramework/default (= 4.0.0)
   - XMPPFramework/default (4.0.0):
     - CocoaAsyncSocket (~> 7.6)
     - CocoaLumberjack
     - KissXML (~> 5.2)
     - libidn (~> 1.35)
+  - XMPPFramework/Swift (4.0.0):
+    - CocoaLumberjack/Swift
+    - XMPPFramework/default
 
 DEPENDENCIES:
   - HeadStart
-  - xmpp-messenger-ios
+  - XMPPFramework/Swift
 
 SPEC REPOS:
   trunk:
     - CocoaAsyncSocket
     - CocoaLumberjack
-    - FMDB
     - HeadStart
-    - JSQMessagesViewController
-    - JSQSystemSoundPlayer
     - KissXML
     - libidn
     - NVActivityIndicatorView
     - PINCache
     - PINOperation
     - PINRemoteImage
-    - xmpp-messenger-ios
     - XMPPFramework
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
-  FMDB: 0c3eed7342fdf9dc03b8fe3d8de8e7a9f08bfacc
   HeadStart: 7cf468fbc99cc70826608299a4becef7c226d304
-  JSQMessagesViewController: 6587f56aedbcb150a8ba1d968e1ef58b1bc758b7
-  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
   KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
   libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
   NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
   PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
   PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
   PINRemoteImage: f1295b29f8c5e640e25335a1b2bd9d805171bd01
-  xmpp-messenger-ios: e1a81270a0d62f1307c86b493209f01853e82e6b
   XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
 
-PODFILE CHECKSUM: 10104879a5b0d71fd8878197bce497d2efeb4d3c
+PODFILE CHECKSUM: cc71be715a3cf91564359491a4ac81dc8f834fea
 
 COCOAPODS: 1.10.0.rc.1

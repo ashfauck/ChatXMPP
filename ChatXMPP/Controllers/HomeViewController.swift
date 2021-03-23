@@ -22,7 +22,7 @@ class HomeViewController: UIViewController {
 
     
     // MARK: - Properties
-    let xmpp = XMPPController()
+//    let xmpp = XMPPController(hostName: "", userJIDString: <#T##String#>, hostPort: <#T##UInt16#>, password: <#T##String#>)
     
     
     // MARK: - IBOutlets
@@ -46,7 +46,7 @@ class HomeViewController: UIViewController {
     
     @objc func didTapView()
     {
-        print(xmpp.users)
+//        print(xmpp.users)
     }
     
     // MARK: - IBActions

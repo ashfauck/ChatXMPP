@@ -183,6 +183,9 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SignalProtocolC/SignalProtocolC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SignalProtocolObjC/SignalProtocolObjC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/XMLParsing/XMLParsing.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMPPFramework/XMPPFramework.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/libidn/libidn.framework"
 fi
@@ -195,6 +198,9 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SignalProtocolC/SignalProtocolC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SignalProtocolObjC/SignalProtocolObjC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/XMLParsing/XMLParsing.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMPPFramework/XMPPFramework.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/libidn/libidn.framework"
 fi

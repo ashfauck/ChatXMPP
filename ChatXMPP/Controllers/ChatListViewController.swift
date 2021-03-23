@@ -45,14 +45,14 @@ extension ChatListViewController: UITableViewDelegate, UITableViewDataSource
 {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return XMPPController.shared.users.count
+        return 0 //XMPPController.shared.users.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = tableView.dequeueReusableCell(ofType: ChatTableViewCell.self, for: indexPath)
         
-        cell.updateUI(user: XMPPController.shared.users[indexPath.row])
+//        cell.updateUI(user: XMPPController.shared.users[indexPath.row])
         
         return cell
     }

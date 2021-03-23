@@ -331,7 +331,7 @@ static const int xmppLogLevel = XMPP_LOG_LEVEL_WARN;
 }
 
 + (NSString*) xmlnsOMEMOBundles:(OMEMOModuleNamespace)ns deviceId:(uint32_t)deviceId {
-    return [NSString stringWithFormat:@"%@:%d", [self xmlnsOMEMOBundles:ns], (int)deviceId];
+    return [NSString stringWithFormat:@"%@:%ld", [self xmlnsOMEMOBundles:ns], deviceId];
 }
 
 #pragma mark XMPPStreamDelegate methods

@@ -1,0 +1,6 @@
+[submodule "ChatXMPP.xcodeproj/Submodules/OTRKit"]
+	path = ChatXMPP.xcodeproj/Submodules/OTRKit
+	url = https://github.com/ChatSecure/OTRKit.git
+[submodule "Submodules/OTRKit"]
+	path = Submodules/OTRKit
+	url = https://github.com/ChatSecure/OTRKit.git

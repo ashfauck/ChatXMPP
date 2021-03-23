@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		242237A72600897B00BC10F7 /* SignalStoreInMemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242237A62600897B00BC10F7 /* SignalStoreInMemoryStorage.swift */; };
+		2422398F26032F1100BC10F7 /* Omemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422398E26032F1100BC10F7 /* Omemo.swift */; };
+		243CA5662604A4A200E961B9 /* Devices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243CA5652604A4A200E961B9 /* Devices.swift */; };
 		2469D3FE25DE7B3200E77766 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469D3FD25DE7B3200E77766 /* PageViewController.swift */; };
 		2469D40125DE7B3400E77766 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469D40025DE7B3400E77766 /* ChatListViewController.swift */; };
 		2469D40925DE7B5700E77766 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469D40825DE7B5700E77766 /* WeatherViewController.swift */; };
@@ -25,6 +28,7 @@
 		2469D43325DE98C300E77766 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F5179025DB889E00C86B94 /* HomeViewController.swift */; };
 		2469D43625DEA97D00E77766 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469D43525DEA97D00E77766 /* LoginViewController.swift */; };
 		2469D47A25DEC00A00E77766 /* XMPPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469D47925DEC00A00E77766 /* XMPPController.swift */; };
+		249705CB2604C11300A42C62 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249705CA2604C11300A42C62 /* UserDefaults.swift */; };
 		24F5178D25DB889E00C86B94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F5178C25DB889E00C86B94 /* AppDelegate.swift */; };
 		24F5178F25DB889E00C86B94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F5178E25DB889E00C86B94 /* SceneDelegate.swift */; };
 		24F5179425DB889E00C86B94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F5179225DB889E00C86B94 /* Main.storyboard */; };
@@ -35,7 +39,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2422FD2125DCD57F00E8A7FC /* ChatXMPP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ChatXMPP-Bridging-Header.h"; path = "../../../../../ChatXMPP-Bridging-Header.h"; sourceTree = "<group>"; };
+		242237A62600897B00BC10F7 /* SignalStoreInMemoryStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalStoreInMemoryStorage.swift; sourceTree = "<group>"; };
+		2422398E26032F1100BC10F7 /* Omemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omemo.swift; sourceTree = "<group>"; };
+		243CA5652604A4A200E961B9 /* Devices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devices.swift; sourceTree = "<group>"; };
+		24495E0826007AC200E72790 /* ChatXMPP-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChatXMPP-Bridging-Header.h"; sourceTree = "<group>"; };
 		2469D3F925DE7A3800E77766 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		2469D3FD25DE7B3200E77766 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		2469D40025DE7B3400E77766 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +60,7 @@
 		2469D42725DE876200E77766 /* CXWeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CXWeatherTableViewCell.xib; sourceTree = "<group>"; };
 		2469D43525DEA97D00E77766 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2469D47925DEC00A00E77766 /* XMPPController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMPPController.swift; sourceTree = "<group>"; };
+		249705CA2604C11300A42C62 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		24F5178925DB889E00C86B94 /* ChatXMPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatXMPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F5178C25DB889E00C86B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24F5178E25DB889E00C86B94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +92,7 @@
 			children = (
 				2469D3F925DE7A3800E77766 /* Users.swift */,
 				2469D42025DE82FB00E77766 /* CXWeather.swift */,
+				243CA5652604A4A200E961B9 /* Devices.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,6 +123,7 @@
 				2469D40025DE7B3400E77766 /* ChatListViewController.swift */,
 				2469D40825DE7B5700E77766 /* WeatherViewController.swift */,
 				2469D43525DEA97D00E77766 /* LoginViewController.swift */,
+				2422398E26032F1100BC10F7 /* Omemo.swift */,
 				2469D41D25DE826000E77766 /* CXConstants.swift */,
 			);
 			path = Controllers;
@@ -153,6 +163,8 @@
 			children = (
 				2469D41225DE7C9E00E77766 /* Reachability.swift */,
 				2469D47925DEC00A00E77766 /* XMPPController.swift */,
+				242237A62600897B00BC10F7 /* SignalStoreInMemoryStorage.swift */,
+				249705CA2604C11300A42C62 /* UserDefaults.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -189,7 +201,7 @@
 				24F5179825DB88A000C86B94 /* Assets.xcassets */,
 				24F5179D25DB88A000C86B94 /* Info.plist */,
 				24F5179525DB889E00C86B94 /* ChatXMPP.xcdatamodeld */,
-				2422FD2125DCD57F00E8A7FC /* ChatXMPP-Bridging-Header.h */,
+				24495E0826007AC200E72790 /* ChatXMPP-Bridging-Header.h */,
 			);
 			path = ChatXMPP;
 			sourceTree = "<group>";
@@ -328,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2469D41725DE7CCB00E77766 /* CXWeatherEndpoint.swift in Sources */,
+				2422398F26032F1100BC10F7 /* Omemo.swift in Sources */,
 				2469D40F25DE7C5300E77766 /* CXRouter.swift in Sources */,
 				2469D42D25DE919700E77766 /* ChatTableViewCell.swift in Sources */,
 				2469D43625DEA97D00E77766 /* LoginViewController.swift in Sources */,
@@ -340,11 +353,14 @@
 				2469D42B25DE917600E77766 /* Users.swift in Sources */,
 				24F5178D25DB889E00C86B94 /* AppDelegate.swift in Sources */,
 				2469D41E25DE826000E77766 /* CXConstants.swift in Sources */,
+				249705CB2604C11300A42C62 /* UserDefaults.swift in Sources */,
 				24F5179725DB889E00C86B94 /* ChatXMPP.xcdatamodeld in Sources */,
+				243CA5662604A4A200E961B9 /* Devices.swift in Sources */,
 				2469D41325DE7C9E00E77766 /* Reachability.swift in Sources */,
 				2469D41B25DE7CD700E77766 /* CXWeatherHandler.swift in Sources */,
 				24F5178F25DB889E00C86B94 /* SceneDelegate.swift in Sources */,
 				2469D47A25DEC00A00E77766 /* XMPPController.swift in Sources */,
+				242237A72600897B00BC10F7 /* SignalStoreInMemoryStorage.swift in Sources */,
 				2469D42125DE82FB00E77766 /* CXWeather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -477,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -496,13 +512,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4N7N8D95WX;
 				INFOPLIST_FILE = ChatXMPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.orgware.ChatXMPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ashfauck/Development/Sample Projects/ChatXMPP/ChatXMPP/ChatXMPP-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -517,13 +535,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4N7N8D95WX;
 				INFOPLIST_FILE = ChatXMPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.orgware.ChatXMPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ashfauck/Development/Sample Projects/ChatXMPP/ChatXMPP/ChatXMPP-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

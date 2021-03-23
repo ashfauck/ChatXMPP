@@ -35,6 +35,10 @@ PODS:
   - PINRemoteImage/PINCache (3.0.3):
     - PINCache (~> 3.0.3)
     - PINRemoteImage/Core
+  - SignalProtocolC (2.3.2)
+  - SignalProtocolObjC (1.1.0):
+    - SignalProtocolC (~> 2.3.2)
+  - XMLParsing (0.0.3)
   - XMPPFramework/default (4.0.0):
     - CocoaAsyncSocket (~> 7.6)
     - CocoaLumberjack
@@ -46,6 +50,8 @@ PODS:
 
 DEPENDENCIES:
   - HeadStart
+  - SignalProtocolObjC
+  - XMLParsing (from `https://github.com/ShawnMoore/XMLParsing.git`)
   - XMPPFramework/Swift
 
 SPEC REPOS:
@@ -59,7 +65,18 @@ SPEC REPOS:
     - PINCache
     - PINOperation
     - PINRemoteImage
+    - SignalProtocolC
+    - SignalProtocolObjC
     - XMPPFramework
+
+EXTERNAL SOURCES:
+  XMLParsing:
+    :git: https://github.com/ShawnMoore/XMLParsing.git
+
+CHECKOUT OPTIONS:
+  XMLParsing:
+    :commit: 594272e4df40798c53ae1735ee65f3f387291670
+    :git: https://github.com/ShawnMoore/XMLParsing.git
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
@@ -71,8 +88,11 @@ SPEC CHECKSUMS:
   PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
   PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
   PINRemoteImage: f1295b29f8c5e640e25335a1b2bd9d805171bd01
+  SignalProtocolC: 051512e9f3abfeb4120c5e9673af9ae0ee370070
+  SignalProtocolObjC: b992ed29c3b7b453510ff0102ed16ef143f7efd2
+  XMLParsing: 085edb6fa22c71d6b53a79299f990a91e7414d19
   XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
 
-PODFILE CHECKSUM: cc71be715a3cf91564359491a4ac81dc8f834fea
+PODFILE CHECKSUM: 42195463613623f2a9048bbdde1db233d0540c2a
 
-COCOAPODS: 1.10.0.rc.1
+COCOAPODS: 1.10.1
